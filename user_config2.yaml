@@ -1,0 +1,20 @@
+batch_size: 128
+eval_batch_size: 128
+dropout: 0.0
+lr: 0.0001
+num_layers: 5
+num_epochs: 1
+down_epochs: 1
+JK : "none"
+task_names:
+  - "chempcba"
+d_multiple:
+  - 2
+d_min_ratio:
+  - 0.2
+evaluate_names:
+  - "chempcba"
+dd_multiple:
+  - 2
+dd_min_ratio:
+  - 0.2
